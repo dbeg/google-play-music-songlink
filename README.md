@@ -1,6 +1,6 @@
 # google-play-music-songlink
 
-A Chrome extension to generate a song.link from Google Play Music.
+A Chrome extension to generate a [song.link](https://song.link) from Google Play Music.
 
 ## Installation
 
