@@ -1,0 +1,32 @@
+{
+  "name": "google-play-music-songlink",
+  "version": "0.1.0",
+  "description": "Generate a song.link for Google Play Music",
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://play.google.com/music/*"],
+      "run_at": "document_idle",
+      "js": ["js/contentScript.js"]
+    }
+  ],
+  "page_action": {
+    "default_icon": {
+      "16": "images/sl-16.png",
+      "32": "images/sl-32.png",
+      "48": "images/sl-48.png",
+      "128": "images/sl-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/sl-16.png",
+    "32": "images/sl-32.png",
+    "48": "images/sl-48.png",
+    "128": "images/sl-128.png"
+  },
+  "manifest_version": 2
+}
