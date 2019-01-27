@@ -11,5 +11,5 @@ A Chrome extension to generate a [song.link](https://song.link) from Google Play
 ## Usage
 
 When the extension is active:
-* A new link will be displayed next to the Google Play Music controls. Clicking on this link will open a new tab to [song.link](https://song.link) for the currently playing song.
+* When listening to music, a link will be displayed next to the Google Play Music controls. Clicking on this link will open a new tab to [song.link](https://song.link) for the currently playing song.
 * When viewing an album in Google Play Music, clicking on the extension browser icon will open a new tab to [song.link](https://song.link) for the selected album.
